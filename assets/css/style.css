@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-white{
+    color: #fff  !important;
+}
+
+.clear{
+    clear: both;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-third{
+    float: left;
+    width: 33.33333%;
+}
+
+.col-half{
+    float: left;
+    width: 50%;
+}
+
+.col-full{
+    width: 100%;
+}
+/* main */
+
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header #nav{
+    display: inline-block;
+}
+
+#nav>li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav>li:hover>a,
+.sub-nav>li:hover>a{
+    background-color: #ccc;
+    color: black;
+    display: block;
+}
+
+#nav li{
+    list-style: none;
+   
+}
+
+#nav .sub-nav{
+    position: absolute;
+}
+#nav li a{
+    line-height: 46px;
+    color: white;
+    text-decoration: none;
+    padding: 0 24px;
+}
+ #nav .sub-nav{
+     display: none;
+     background-color: #fff;
+     box-shadow: 0 0 10px #ccc;
+     min-width: 160px;
+ }
+
+ #nav .sub-nav a{
+     color: black;
+     padding: 0 12px;
+ }
+ .sub-nav li{
+     line-height: 38px;
+ }
+
+ #nav li:hover .sub-nav{
+     display: block;
+ }
+
+ .arrow-down{
+     font-size: 10px;
+ }
+ #header .search-btn{
+     float: right;
+     display: block;
+     color: #fff;
+     line-height: 46px;
+     padding: 0 23px;
+ }
+
+ #header .search-btn:hover{
+     background-color: red;
+     cursor: pointer;
+ }
+
+#slider{
+    position: relative;
+}
+ .background-img{
+     width: 100%;
+ }
+ .content-slider{
+     bottom: 46px;
+     position: absolute;
+     width: 100%;
+     
+ }
+
+#slider .slider-heading{
+     font-size: 24px;
+     margin: 10px 0;
+     font-weight: 500;
+ }
+
+ .content-section{
+     width: 800px;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 64px 16px 96px;
+ }
+ .about-text{
+    text-align: justify;
+   
+ }
+
+ .heading-section{
+     margin: 10px 0;
+     font-weight: 400;
+     letter-spacing: 4px;
+     font-size: 30px;
+ }
+
+ .slogan-section{
+     opacity: 0.6;
+    font-style: italic;
+    margin: 15px 0;
+ }
+
+.list-member{
+    padding-top: 32px;
+}
+
+.member-item .member-avt{
+    width: 153px;
+    padding-bottom: 16px;
+    height: 169px;
+}
+
+.member-item .member-name{
+    margin: 15px 0;
+}
+
+ .member-item{
+     float: left;
+     width: 33.33333%;
+ }
+
+ .tour-section{
+     background-color: black;
+ }
+
+ .tickets-list{
+     background: #fff;
+ }
+
+ .tickets-item{
+    padding: 10px 0;
+    border: 1px solid #ccc;
+ }
+
+ .sold-out{
+    background: red;
+    margin: 0 16px;
+    color: white;
+    padding: 3px 8px;
+ }
+
+ .quantity{
+    float: right;
+    background: black;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -2px;
+    margin-right: 16px;
+ }
+
+
+ .place-img{
+     width: 100%;
+     display: block;
+     height: 163px;
+    
+ }
+
+ .place-img:hover{
+     opacity: 0.7;
+ }
+
+ .about-place{
+    background-color: #fff;
+    color: black;
+    padding: 15px ;
+ }
+ 
+ .place-name{
+    margin: 0 0 15px;
+ }
+ .date-time{
+    margin: 15px 0;
+ }
+
+ .text-place{
+    margin: 15px 0;
+ }
+
+ .buy-tickets-btn{
+     margin: 0 0 16px;
+     padding: 10px 27px;
+     display: inline-block;
+     text-decoration: none;
+     background-color: black;
+     color: #fff;
+ }
+
+.buy-tickets-btn:hover,
+.btn-submit:hover{
+    background: #ccc;
+    color: black;
+}
+
+ .contact-info i[class*="ti-"]{
+     padding: 0 10px;
+
+ }
+
+ .form-control{
+    width: 100%;
+    padding: 12px 6px;
+    margin: 3px 0;
+ }
+
+ .btn-submit{
+     float:right;
+     margin: 16px 0;
+    padding: 9px 18px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+ }
+ .social-link a{
+     text-decoration: none;
+     color:black;
+     font-size: 20px;
+ }
+ .copyright{
+     margin: 15px 0;
+     opacity: 0.7;
+     color: black;
+ }
+ .copyright a{
+     opacity: 0.7;
+     color: black;
+ }
+
+ #footer{
+     padding: 64px 16px;
+ }
+  .social-link a:hover{
+      opacity: 0.7;
+  }
+
+  .list-tickets{
+      padding-top:32px;
+  }
+
+  .place-item{
+      margin-bottom: 16px;
+  }
