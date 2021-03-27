@@ -1,0 +1,78 @@
+/* pc */
+@media (min-width: 1024px) {
+    #header #mobile-menu{
+        display: none;
+    }
+}
+
+/* tablet & mobile */
+@media (max-width: 1023px){
+    .buy-tickets-btn{
+        padding: 13px 27px;
+    }
+    #footer .social-link a{
+        font-size: 30px;
+        margin: 0 8px;
+    }
+
+    .copyright{
+        padding: 12px 0;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header #mobile-menu{
+        display: none;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    #header #nav{
+        display: block;
+    }
+
+    #nav .sub-nav{
+        position: initial;
+        background: #333;
+    }
+
+    #nav .sub-nav a{
+        color: #fff;
+        padding: 0 41px;
+    }
+    #nav>li{
+        display: block;
+    }
+
+    #nav>li:first-child{
+        display: inline-block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    .member-item{
+        width: 100% !important;
+    }
+    .member-item .member-avt{
+        width: 60%;
+        height: 60%;
+    }
+    .s-col-full,
+    .s-full-width{
+        width: 100% !important;
+    }
+    .place-img{
+        height: 100%;
+    }
+}

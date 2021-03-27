@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thuu Hà</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -19,13 +20,16 @@
                 <li>
                     <a href="#">MORE <i class="arrow-down ti-angle-down"></i></a>
                     <ul class="sub-nav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
             <i class="search-btn ti-search"></i>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
     </div>
     <!-- end header -->
 
@@ -47,15 +51,15 @@
                 <p class="slogan-section text-center">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="list-member row">
-                    <div class="member-item text-center">
+                    <div class="member-item col-third text-center">
                         <p class="member-name">Naruto</p>
                         <img src="./assets/img/anh-chibi-naruto_110701874.jpg" alt="" class="member-avt">
                     </div>
-                    <div class="member-item text-center">
+                    <div class="member-item col-third text-center">
                         <p class="member-name">Sakura</p>
                         <img src="./assets/img/cac nang sakura (4).jpg" alt="" class="member-avt">
                     </div>
-                    <div class="member-item text-center">
+                    <div class="member-item col-third text-center">
                         <p class="member-name">Sasuke</p>
                         <img src="./assets/img/gesse-jonathas-sasukee.jpg" alt="" class="member-avt">
                     </div>
@@ -73,31 +77,31 @@
                         <li class="tickets-item">November<span class="quantity text-white text-center">3</span></li>
                     </ul>
                     <div class="row list-tickets">
-                        <div class="col-third col place-item">
+                        <div class="col-third col s-col-full">
                             <img src="./assets/img/auto-1070251_640.jpg" alt="" class="place-img">
                             <div class="about-place">
                                 <h3 class="place-name">BWM</h3>
                                 <p class="date-time">Fri 27 Nov 2016</p>
                                 <p class="text-place">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-tickets-btn">BuyCar</a>
+                                <a href="#" class="buy-tickets-btn s-full-width text-center">BuyCar</a>
                             </div>
                         </div>
-                        <div class="col-third col place-item">
+                        <div class="col-third col s-col-full">
                             <img src="./assets/img/bmw-3533813_640.jpg" alt="" class="place-img">
                             <div class="about-place">
                                 <h3 class="place-name">BWM</h3>
                                 <p class="date-time">Fri 27 Nov 2016</p>
                                 <p class="text-place">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-tickets-btn">BuyCar</a>
+                                <a href="#" class="buy-tickets-btn s-full-width text-center">BuyCar</a>
                             </div>
                         </div>
-                        <div class="col-third col place-item">
+                        <div class="col-third col s-col-full">
                             <img src="./assets/img/bmw-m4-3169357_640.jpg" alt="" class="place-img">
                             <div class="about-place">
                                 <h3 class="place-name">BWM</h3>
                                 <p class="date-time">Fri 27 Nov 2016</p>
                                 <p class="text-place">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="buy-tickets-btn">BuyCar</a>
+                                <a href="#" class="buy-tickets-btn s-full-width text-center">BuyCar</a>
                             </div>
                         </div>
                     </div>
@@ -109,20 +113,20 @@
             <div class="content-section">
                 <h2 class="heading-section text-center">CONTACT</h2>
                 <p class="slogan-section text-center">Fan? Drop a note!</p>
-                <div class="row">
-                    <div class="contact-info col col-half">
+                <div class="row contact-section">
+                    <div class="contact-info col col-half s-col-full">
                         <p><i class="ti-location-arrow"></i>Gia Lai, VN</p>
                         <p><i class="ti-mobile"></i>Phone: +84 379797981</p>
                         <p><i class="ti-email"></i>Email: mail@mail.com</p>
                     </div>
-                    <div class="col col-half">
+                    <div class="col col-half s-col-full">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
     
                                     <input type="text" name="" required id="" placeholder="Name" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="email" name="" required id="" placeholder="Email" class="form-control">
                                     
                                 </div>
@@ -132,7 +136,7 @@
                                         <input type="text" name="" required id="" placeholder="Message" class="form-control">
                                 </div>
                             </div>
-                                <input type="submit" value="SEND" class="btn-submit">
+                                <input type="submit" value="SEND" class="btn-submit s-full-width">
                         </form>
                         
                     </div>
@@ -156,6 +160,32 @@
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
         </div>
     </div>
-    
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu =document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        // đóng mở
+        mobileMenu.onclick = function() {
+            var isClosed = headerHeight === header.clientHeight;
+            if (isClosed){
+                header.style.height = 'auto';
+            } else {
+                header.style.height ='46px';
+            }
+        }
+        // tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for (var i = 0;i<menuItems.length;i++){
+            var menuItem =menuItems[i];
+
+            menuItem.onclick = function(event){
+                var parentItem = this.nextElementSibling && this.nextElementSibling.classList.contains('sub-nav');
+                if (parentItem){
+                    event.preventDefault();
+                } else{
+                header.style.height =null;}
+            }
+        }
+    </script>
 </body>
 </html>
